@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+	int a,i;
+	int fact=1;
+	printf("R.Rajmohan - 192110300\n");
+	printf("enter the number:\n");
+	scanf("%d",&a);
+	for (i=1;i<=a;i++){
+	fact*=i;	
+	}
+	printf("factorial of %d is %d",a,fact);
+	return 0;
+	}
